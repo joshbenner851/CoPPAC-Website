@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
@@ -134,7 +134,11 @@
 
 		<!-- Second Level / End -->
 	</li>
-	<li><a href="merchandise.html"><i class="halflings white briefcase"></i> Merchandise</a></li>
+	<li><a href="merchandise.html"><i class="halflings white shopping-cart"></i> Merchandise</a>
+		<!-- Second Level / Start -->
+
+		<!-- Second Level / End -->
+	</li>
 </ul>
 </nav>
 <div class="clearfix"></div>
@@ -149,13 +153,13 @@
 
 	<div class="sixteen floated page-title">
 
-		<h2>About</h2>
+		<h2>Merchandise</h2>
 
 		<nav id="breadcrumbs">
 			<ul>
 				<li>You are here:</li>
 				<li><a href="../../themeforest-3708895-nevia-responsive-html5-template1/HTML/index.html">Home</a></li>
-				<li>About</li>
+				<li>Merchandise</li>
 			</ul>
 		</nav>
 
@@ -170,130 +174,72 @@
 <!-- 960 Container -->
 <div class="container">
 
-	<div class="sixteen columns">
-		<h3>Meet the Executive Board</h3><br />
-	</div>
 
-	<!-- About -->
+	<!-- Merchandise -->
 	<div class="one-third column">
-		<img src="images/hanna.jpg" alt=""/>
-		<div class="team-name">
-		  <h5><a href="https://www.linkedin.com/in/hannaholmi">Hanna Holmi</a></h5> <span>President</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-Junior<br/>
-
- <span>Internships:</span><br/>
- Bemis R&D Innovation (Summer 2015), Bemis Healthcare Marketing (Summer 2016), 3M R&D Co-op (Spring 2017)
-
-</p>
-		  <p><span>Minor:</span><br/>
-		  Graphic Design <br/>
+		<!-- Change audrey to whatever name of image... Make sure it's in the folder Merchandise which is inside the images folder -->
+		<img src="images/merchandise/quarter-zip-sweater.jpg" alt="Packaging quarter zip sweater"/>
+		<div class="merch-item text-center">
+		  <p><strong>Price: 25.00</strong></p>
 		</div>
 	</div>
 
-	<!-- About -->
+	<!-- Merchandise -->
 	<div class="one-third column">
-
-		<img src="images/audrey.jpg" alt=""/>
-		<div class="team-name">
-		  <h5><a href="https://www.linkedin.com/in/audrey-flood-87b671109">Audrey Flood</a></h5> <span>Vice President</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-Junior<br/>
-
- <span>Internships:</span><br/>
-		Pepperidge Farms (January 2017)</p>
-
-		  <p> <span>Minor:</span><br/>
-		    Food Processing and Technology<br/>
+		<img src="images/merchandise/polo-shirt.jpg" alt="Packaging polo shirt"/>
+		<div class="merch-item text-center">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<table>
+			<tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+				<option value="Small/Medium/Large">Small/Medium/Large $20.00 USD</option>
+				<option value="Extra Large">Extra Large $25.00 USD</option>
+			</select> </td></tr>
+			</table>
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
 		</div>
 	</div>
 
-	<!-- About -->
-	<div class="one-third column">
-		<img src='images/kameron.jpg' alt=""/>
-		<div class="team-name">
-		  <h5><a href="https://www.linkedin.com/in/kameron-gilbert-1103">Kameron Gilbert</a></h5> <span>Treasurer</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-		    Senior<br/>
-
- <span>Internships:</span>
-		  <p>PCA (Summer 2015), Nestle USA (2016)</p>
-
-
-<span>Minor:</span><br/>
-Graphic Design
-<br/>
+	<!-- Merchandise -->
+	<!-- <div class="one-third column">
+		<img src="images/merchandise/audrey.jpg" alt=""/>
+		<div class="merch-item">
+		  <p><strong>Price: priceless</strong></p>
 		</div>
-	</div>
+	</div> -->
+
+	<!-- Merchandise -->
+	<!-- <div class="one-third column">
+		<img src="images/merchandise/audrey.jpg" alt=""/>
+		<div class="merch-item">
+		  <p>Price: priceless</p>
+		</div>
+	</div> -->
+
+	<!-- Merchandise -->
+	<!-- <div class="one-third column">
+		<img src="images/merchandise/audrey.jpg" alt=""/>
+		<div class="merch-item">
+		  <p>Price: priceless</p>
+		</div>
+	</div> -->
+
+	<!-- Merchandise -->
+	<!-- <div class="one-third column">
+		<img src="images/merchandise/audrey.jpg" alt=""/>
+		<div class="merch-item">
+		  <p>Price: priceless</p>
+		</div>
+	</div> -->
 
 
 </div>
-<!-- 960 Container / End -->
-<!-- 960 Container -->
-<div class="container">
 
-	<div class="sixteen columns">
-	</div>
-
-	<!-- About -->
-	<div class="one-third column">
-		<img src='images/lindsay.jpg' alt=""/>
-		<div class="team-name">
-		  <h5><a href="https://www.linkedin.com/in/lindsay-jessmore-a8a36b10a">Lindsay Jessmore</a></h5> <span>Secretary</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-Sophomore<br/>
-
-  <span>Minor:</span><br/>
-  Environmental and Sustainability Studies<br/>&nbsp;</p>
-		</div>
-	</div>
-
-	<!-- About -->
-	<div class="one-third column">
-		<div class="clear"></div>
-		<img src="images/avictoria.jpg" alt=""/>
-		<div class="team-name">
-		  <h5><a href="https://www.linkedin.com/in/victoriajansz">Victoria Jansz</a></h5> <span>Social Chair</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-Junior</p>
-		  <span>Internships:</span>
-		  <p>Mary Kay (Spring 2017)</p>
- <br/>&nbsp;</p>
-		</div>
-	</div>
-
-	<!-- About -->
-	<div class="one-third column">
-		<img src="images/bradley.jpg" alt=""/>
-		<div class="team-name">
-		  <h5><a href="https://www.linkedin.com/in/bradhoekstra">Brad Hoekstra</a></h5> <span>Technology Chair</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-Junior</p>
-		  <p><span>Internships:</span><br/>
-Challenge Mfg. (Summer 2016)</p>
-		</div>
-	</div>
-
-
-</div>
-<!-- 960 Container / End -->
-<!-- 960 Container -->
-<div class="container">
-
-	<div class="sixteen columns">
-	</div>
-
-	<!-- About -->
-	<div class="one-third column">
-		<img src="images/awilliam.jpg" alt=""/>
-		<div class="team-name">
-		<h5><a href="https://www.linkedin.com/in/william-benintende-249743a5">William Benintende</a></h5>
-		<span>Fundraising Chair</span></div>
-		<div class="team-about"><p><span>Class Standing:</span><br/>
-Junior<br/>
-<span>Minor:</span><br/>
- Sustainable Natural Resource Recreation Management<br/>
-	</div>
 
 
 
@@ -365,6 +311,7 @@ Junior<br/>
 			<div class="copyright">
 				© Copyright 2013 by <a href="#">CoPPAC</a>. All Rights Reserved.
 			</div>
+			<p>Webmaster: Josh Benner. Contact @ bennerster@gmail.com</p>
 		</div>
 
 		<!-- Menu -->
